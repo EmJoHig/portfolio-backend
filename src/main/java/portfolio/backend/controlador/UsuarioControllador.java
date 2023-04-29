@@ -59,7 +59,6 @@ import portfolio.backend.modelo.Usuario;
 
 
 
-
 @RestController
 @RequestMapping("/api/v1")
 //@CrossOrigin( origins = "**")
