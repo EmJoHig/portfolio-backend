@@ -17,7 +17,7 @@ public class CorsConfig implements WebMvcConfigurer {
 	@Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
-                .allowedOrigins("https://portfolio-frontend-7c244.web.app",  "https://portfolio-backend-production-b776.up.railway.app")
+                .allowedOrigins("https://portfolio-frontend-7c244.web.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("Authorization", "Cache-Control", "Content-Type")
                 .exposedHeaders("Authorization", "Cache-Control", "Content-Type")
