@@ -62,11 +62,11 @@ import portfolio.backend.modelo.Usuario;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin( origins = "**")
+//@CrossOrigin( origins = "**")
 
 //@Import(SecurityConfig.class)
 //@CrossOrigin(origins="http://localhost:4200/")
-//@CrossOrigin(origins="https://portfolio-frontend-7c244.web.app")
+@CrossOrigin(origins="https://portfolio-frontend-7c244.web.app")
 
 
 public class UsuarioControllador {
