@@ -7,11 +7,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.11</version>
 		<relativePath/> <!-- lookup parent from repository -->
-<<<<<<< HEAD
 	</parent> 
-=======
-	</parent>
->>>>>>> ab518e99aabd7804d5eb7e37ca4bbf3426c80d95
 	<groupId>portfolio.backend</groupId>
 	<artifactId>portfolio-backend</artifactId>
 	<version>1.0</version>
