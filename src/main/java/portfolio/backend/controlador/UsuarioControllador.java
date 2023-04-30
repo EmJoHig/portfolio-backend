@@ -101,6 +101,7 @@ public class UsuarioControllador {
 	
 	@GetMapping("/usuarios")
 	public List<Usuario> listarTodosLosUsuarios() {
+		System.out.println("**----ESTA ENTRANDOOOOO---- ");
 		return repositorio.findAll();
 	}
 
